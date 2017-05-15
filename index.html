@@ -1,0 +1,97 @@
+<html>
+    <head>
+      <title>Sign up</title>
+    </head>
+    <style type="text/css">
+      input[type=text],select{
+      	width: 200px;
+      	padding: 10px 10px;
+      	display: inline-block;
+      	border-radius: 5px;
+      }	
+      input[type=Password]{
+      	width: 200px;
+      	padding: 10px 10px;
+      	border-radius: 5px;
+      }
+      input[type=submit]{
+      	width: 200px;
+      	height: 50px;
+      	color: white;
+      	font-size: 25px;
+      	background-color: #33cc33;
+      	color: white;
+      	border-radius: 3px;
+      	cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+        background-color: #006600;
+      }
+
+      body{
+        background-image: url("giphy.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    </style> 
+
+    <body>
+     
+      <div class="top" style="text-align: center; color: white; margin-left: 30%; margin-right: 30%; height: 10%; border-radius: 10px;">
+     	<p class="heading" style="font-family: ff-meta-serif-web-pro, serif; font-size: 50px; position: relative; top: 15px;">SIGN UP FOR KTJ</p>
+      </div>
+
+      <div class="form" style="text-align: center; color: white; padding: 20px;margin-top: 50px; margin-left: 30%; margin-right: 30%; background-color: rgba(102, 102, 255, 0.6); border-radius: 5px;  ">
+          <form action="######">
+            <label for="fname" style="font-size: 20px">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name"><br><br>
+
+            <label for="lname" style="font-size: 20px">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name"><br><br>
+
+            <label for="uname" style="font-size: 20px">User Name</label>
+            <input type="text" id="uname" name="usernme" placeholder="Your user name"><br><br>
+
+            <label for="pwd" style="font-size: 20px">Password</label>
+            <input type="Password" id="pwd" name="Password" placeholder="Enter Password"><br><br>
+
+            <label for="cpwd" style="font-size: 20px">Confirm Password</label>
+            <input type="Password" id="cpwd" name="confirmpasswd" placeholder="Re-enter password"><br><br>
+
+            <label for="telno" style="font-size: 20px">Phone no</label>
+            <input type="text" id="telno" name="phno"><br><br>
+
+            <label for="email" style="font-size: 20px">Email id</label>
+            <input type="text" id="email" name="emailid"><br><br>
+
+            <label for="DOB" style="font-size: 20px">Enter date of birth</label>
+            <input type="date" id="DOB" name="dateofbirth"><br><br>
+
+            <label for="gender" style="font-size: 20px">Gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="male"> Female<br><br>
+
+            <label for="nationality" style="font-size: 20px">Nationality</label>
+            <select id="nationality" name="nationality">
+             <option value="Indian">Indian</option>
+             <option value="Others">Others</option>
+            </select><br><br>
+
+            <a href="login.html" style=" font-size: 15px">Already Have an account</a><br><br>
+
+            <input type="submit" value="Submit">
+     
+      </div>
+
+      <div class="iitlogo" style=" position: absolute; margin-top: -750px; margin-left: 8%;">
+      	<img src="kgp.png" width="100px">
+      </div>
+
+      <div class="ktjlogo" style=" position: absolute; margin-top: -750px; margin-left: 83%;">
+      	<img src="Kshitij_Logo.png" width="100px">
+      </div>
+     
+    </body>
+</html>
